@@ -1,13 +1,18 @@
-To install FFTW3 in ubuntu or a Debian-based distribution run:
+Para instalar el paquete de la transformada de Fourier rápida FFTW3 en Ubuntu o en una distribucion de Linux, hay que correr en la terminal:
 
 sudo apt install libfftw3-bin libfftw3-dev libfftw3-doc
 
-To install the Python dependencies run:
+Para instalar las dependencias de pyhon necesarias:
 
 pip install -r pip_requirements.txt
 
-To run the 1D simulation:
+Para correr la simulación en 1D:
 
 make
 
-The files for the 2D and 3D simulation are in the Legacy folder.
+Los archivos para 2D y 3D se encuentran en la carpeta Legacy.
+
+Para correr en dichas dimensiones:
+
+sh 2Drun.sh
+sh 3Drun.sh
