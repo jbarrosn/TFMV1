@@ -1,0 +1,6 @@
+all: limpiar
+
+limpiar:
+	@echo Deleting output files from former execution.
+	rm -rf ./datFiles
+	rm -rf ./images
